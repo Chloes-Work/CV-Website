@@ -45,8 +45,11 @@ main .career .cv-entry.right .content {
 }
 
 main .career .cv-entry.cv-entry.future .content {
-    background-color: lightgray;
+    background-color: darkgray;
+    border: 2px solid white;
+    color: white;
 }
+
 main .career .cv-entry .content {
     margin: 3vw 0;
     width: 25vw;
