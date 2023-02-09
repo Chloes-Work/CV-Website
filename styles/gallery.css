@@ -1,0 +1,47 @@
+main .about .gallery {
+    margin: 0 7%;
+    padding-top: 1%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+}
+
+main .about .gallery .image-box {
+    flex-basis: 240px;
+    display: flex; 
+    position: relative;
+}
+
+
+main .about .gallery .image-box .overlay {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    color: white;
+    background-color: rgb(48 45 45 / 40%);
+    opacity: 0;
+    transition: opacity ease-in-out 0.5s;
+}
+
+
+main .about .gallery .image-box:hover .overlay {
+    opacity: 1;
+}
+
+main .about .gallery .image-box .overlay .img-desc {
+    margin: auto;
+}
+
+
+main .about .gallery .image-box img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}

@@ -1,0 +1,166 @@
+main .career {
+    position: relative;
+    margin: 0 7vw;
+    margin-top: 7vh;
+}
+
+main .career .line {
+    height: 45em;
+    background-color: white;
+    width: 0.1em;
+    margin: auto;
+}
+
+main .career .cv-entry {
+    font-size: 0.75em;
+    position: absolute;
+    top: 0;
+    width: 49.5%;
+    display: flex;
+    overflow: hidden;
+}
+
+main .career .cv-entry.left {
+    left: 0;
+}
+
+main .career .cv-entry.right {
+    right: 0;
+}
+
+main .career .cv-entry.left.in .content {
+    margin-left: 5vw;
+}
+
+main .career .cv-entry.right.in .content {
+    margin-right: 5vw;
+}
+
+main .career .cv-entry.left .content {
+    margin-left: 2vw;
+}
+
+main .career .cv-entry.right .content {
+    margin-right: 2vw;
+}
+
+main .career .cv-entry.cv-entry.future .content {
+    background-color: lightgray;
+}
+main .career .cv-entry .content {
+    margin: 3vw 0;
+    width: 25vw;
+    border-radius: 6vw;
+    text-align: center;
+    background-color: white;
+    font-size: 1em;
+    padding: 1em;
+    box-shadow: 2px 2px 0.7em 0px;
+}
+
+main .career .cv-entry .content .year {
+    font-weight: bold;
+}
+main .career .cv-entry .view-blocker {
+    position: absolute;
+    height: 100%;
+    background-color: rgb(255 176 222);
+    width: 0px;
+    transition: width ease-out 1s;
+}
+
+main .career .cv-entry.right .view-blocker {
+    right: 0;
+}
+
+main .career .cv-entry .view-blocker.active {
+    width: 100%;
+}
+
+main .career .cv-entry .content-line {
+    flex: 1;
+}
+
+main .career .cv-entry .horizontal-line {
+    flex: 1;
+    width: 100%;
+    height: calc(50% - 2px);
+    border-bottom: 4px dotted white;
+}
+
+main .career .cv-entry.future .horizontal-line {
+    border-bottom: 4px dotted lightgray;
+}
+
+/*CV-Entry Placement*/
+main .career .cv-entry:nth-child(1) {
+    z-index: 10;
+}
+
+main .career .cv-entry:nth-child(2) {
+    top: 5em;
+    z-index: 9;
+}
+
+main .career .cv-entry:nth-child(3) {
+    top: 10em;
+    z-index: 9;
+}
+
+main .career .cv-entry:nth-child(4) {
+    top: 15em;
+    z-index: 8;
+}
+
+main .career .cv-entry:nth-child(5) {
+    top: 20em;
+}
+
+main .career .cv-entry:nth-child(6) {
+    top: 25em;
+}
+
+main .career .cv-entry:nth-child(7) {
+    top: 30em;
+}
+
+main .career .cv-entry:nth-child(8) {
+    top: 35em;
+}
+
+main .career .cv-entry:nth-child(9) {
+    top: 40em;
+}
+
+main .career .cv-entry:nth-child(10) {
+    top: 45em;
+}
+
+main .career .cv-entry:nth-child(11) {
+    top: 50em;
+}
+
+
+main .career-text {
+    margin: 0 7%;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+
+main h2.career-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 7vh;
+    padding-bottom: 1vh;
+}
+
+main .career-text a {
+    text-decoration: none;
+    color: darkslategray;;
+}
+
+
+main .career-text a:hover {
+    color: darkgray;
+}

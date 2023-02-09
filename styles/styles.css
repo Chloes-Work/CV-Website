@@ -1,0 +1,47 @@
+@import "./fonts/fonts.css";
+@import "./header.css";
+@import "./navbar.css";
+@import "./about.css";
+@import "./career.css";
+@import "./skills.css";
+@import "./footer.css";
+
+body {
+    font-family: 'Titillium';
+    font-size: 2vh;
+    background-color: rgb(255 176 222);
+    margin: 0px;
+    min-width: 280px;
+}
+
+@media (max-width:320px) {
+    body {
+        font-size: 0.5em;
+    }
+}
+
+
+@media (min-width:1000px) {
+    body {
+        font-size: 1.1em;
+    }
+}
+
+
+@media only screen and (min-width: 2000px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    body {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 4000px) {
+    body {
+        font-size: 3em;
+    }
+}

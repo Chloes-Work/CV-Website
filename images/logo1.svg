@@ -1,0 +1,13 @@
+
+<svg viewBox="12.5 0 20 15" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        text {
+            font-family: 'AlexBrush';
+            fill: white;
+        }
+    </style>
+
+    <text x="20" y="10.1" class="c" style="font-size: 1.22em;">C</text>
+    <text x="14.5" y="9.8" class="n">N</text>
+    <text x="13" y="34.5" class="wave" style="font-size: 4.4em; font-weight: 100;">~</text>
+</svg>

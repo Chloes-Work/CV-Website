@@ -1,0 +1,104 @@
+main h2#skills {
+    padding-top: 7vh;
+    padding-bottom: 1vh;
+    margin: 0% 7vw;
+    text-align: center;
+}
+
+main .skill-table {
+    display: flex;
+    margin: 0% 7vw;
+    flex-direction: column;
+}
+
+
+main .skill-table .header,
+main .skill-table .skills {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main .skill-table .header {
+    flex-direction: row;
+}
+
+main .skill-table .header .header-text {
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+main .skill-table .header .row,
+main .skill-table .skills .row {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 0%;
+    padding: 1% 0%;
+    width: 100%;
+}
+
+main .skill-table .header .row .name {
+    border-right: 1px solid transparent !important;
+}
+
+main .skill-table .skills .scale {
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+
+
+main .skill-table .skills .scale .line {
+    margin: 0 auto;
+    border-left: 1px solid white;
+}
+
+main .skill-table .header .row .name,
+main .skill-table .skills .row .name {
+    font-size: 1.2em;
+    text-align: center;
+    width: 25vw;
+    border-right: 1px solid white;
+}
+
+main .skill-table .skills .row .level-box {
+    flex: 1;
+    position: relative;
+}
+
+
+main .skill-table .skills .row .level-box .level.hidden {
+    width: 0 !important;
+}
+
+main .skill-table .skills .row .level-box .level.tried {
+    width: 17%;
+}
+
+main .skill-table .skills .row .level-box .level.used {
+    width: 50.5%;
+}
+
+main .skill-table .skills .row .level-box .level.professional {
+    width: 84%;
+}
+
+main .skill-table .skills .row .level-box .level.css {
+    width: 100%;
+}
+
+main .skill-table .skills .row .level-box .level {
+    background-color: white;
+    position: absolute;
+    top: 0.3em;
+    bottom: 0.3em;
+    transition: width ease-out 1s;
+}

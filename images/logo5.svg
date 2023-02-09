@@ -1,0 +1,21 @@
+<svg style="flex:1; font-size:12px;" viewBox="10 0 20 12.5" xmlns="http://www.w3.org/2000/svg">
+    <metadata>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:schema="http://schema.org/">
+            <rdf:Description rdf:about="Copyright Notice">
+                © 2023 Chloé Nitschmann. All rights reserved.
+            </rdf:Description>
+        </rdf:RDF>
+    </metadata>
+    <style>
+        text {
+            font-family: 'AlexBrush';
+            fill: white;
+        }
+    </style>
+
+    <text x="16" y="10.2" class="c" style="font-size: 1.22em;transform: skewX(349deg);">C</text>
+    <text x="10" y="10.7" class="n" style="transform: skewX(22deg);">N</text>
+    <text x="11.2" y="45.5" class="wave"
+        style="font-size: 4.4em;font-weight: 100;transform: rotateX(60deg);">~</text>
+</svg>

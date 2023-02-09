@@ -1,0 +1,27 @@
+
+footer .contact {
+    text-align: center;
+    margin:  0 2% 2% 2%;
+    border-top: 2px solid white;
+    margin-top: 7vh;
+    padding-top: 7vh;
+}
+
+footer .contact .mail {
+    font-size: 1.15em;
+    padding-bottom: 1em;
+}
+
+footer .contact .mail a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .copyright{
+    margin-top: 7vh;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    background-color: white;
+}
