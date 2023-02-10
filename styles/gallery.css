@@ -11,10 +11,9 @@ main .about .gallery {
 
 main .about .gallery .image-box {
     flex-basis: 240px;
-    display: flex; 
+    display: flex;
     position: relative;
 }
-
 
 main .about .gallery .image-box .overlay {
     position: absolute;
@@ -29,7 +28,6 @@ main .about .gallery .image-box .overlay {
     transition: opacity ease-in-out 0.5s;
 }
 
-
 main .about .gallery .image-box:hover .overlay {
     opacity: 1;
 }
@@ -37,7 +35,6 @@ main .about .gallery .image-box:hover .overlay {
 main .about .gallery .image-box .overlay .img-desc {
     margin: auto;
 }
-
 
 main .about .gallery .image-box img {
     object-fit: cover;

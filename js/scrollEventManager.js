@@ -26,3 +26,6 @@ class ScrollEventManager {
         }
     }
 }
+
+var careerScrollManager = new ScrollEventManager(".view-blocker.active", "active", 0.99);
+var skillScrollManager = new ScrollEventManager(".level.hidden", "hidden", 0.99);

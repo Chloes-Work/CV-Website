@@ -3,9 +3,10 @@ header .navbar {
     padding: 1vh 0 1vh 0;
     width: 100%;
     flex: 1;
-    background-color: rgb(239 135 196);
+    background-color: rgb(221 82 178);
     z-index: 11;
     box-shadow: 0px 2px 4px -2px;
+    border-bottom: 2px solid white;
 }
 
 .navbar a {
@@ -16,7 +17,8 @@ header .navbar {
     color: white;
     text-decoration: none;
     line-height: 4vh;
-    font-size: 2vh;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .navbar a:last-child {

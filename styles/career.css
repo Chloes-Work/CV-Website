@@ -64,6 +64,7 @@ main .career .cv-entry .content {
 main .career .cv-entry .content .year {
     font-weight: bold;
 }
+
 main .career .cv-entry .view-blocker {
     position: absolute;
     height: 100%;
@@ -160,7 +161,8 @@ main h2.career-title {
 
 main .career-text a {
     text-decoration: none;
-    color: darkslategray;;
+    color: darkslategray;
+    ;
 }
 
 

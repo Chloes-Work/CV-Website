@@ -1,4 +1,5 @@
-<html style="background-color: white;" lang="en_US" prefix="og: https://ogp.me/ns#">
+<!DOCTYPE html>
+<html style="background-color: white;" lang="en" prefix="og: https://ogp.me/ns#">
 
 <head>
     <title>Chloé's CV</title>
@@ -21,7 +22,8 @@
 
     <meta property="og:locale" content="en_US" />
 
-    <link rel="icon" type="image/png" href="./images/Chloe.png">
+    <link rel="icon" type="image/png" href="./images/Chloe.webp">
+    <link rel="preload" as="style" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -58,7 +60,7 @@
                 </div>
                 <div class="holder">
                     <div class="circle">
-                        <img class="selfie" src="./images/Chloe.png">
+                        <img class="selfie" src="./images/Chloe.webp" alt="A cartoony picture of Chloé">
                     </div>
                 </div>
             </div>
@@ -264,11 +266,13 @@
             <div class="career-tocco">
                 <h2 class="career-title">Tocco AG</h2>
                 <p>
-                    At <a href="https://www.tocco.ch/">Tocco AG</a> we developed an ERP and CMS Solution for customers of
+                    At <a href="https://www.tocco.ch/">Tocco AG</a> we developed an ERP and CMS Solution for customers
+                    of
                     different business sectors.
                     There I got accustomed to Java and developed extensions to the existing system based on customer
                     specifications and requirements.
-                    Whenever possible I tried to standardize these specifications together with Project Managers and the Product
+                    Whenever possible I tried to standardize these specifications together with Project Managers and the
+                    Product
                     Owner. I often helped clearing
                     up technical questions in these meetings and wrote specifications for our team to implement.
                     Specifically the team I was part of
@@ -287,15 +291,18 @@
                     advertisers
                     we provided hardware and software solutions. First working alone I started with modernizing the
                     existing code base left by my predecessor.
-                    While delivering support for the existing customer base, their applications and the implementation of new features for them -
+                    While delivering support for the existing customer base, their applications and the implementation
+                    of new features for them -
                     I pushed for restructuring and rebuilding the existing solution to provide a better and
                     more functional experience for our customer and
                     a more sustainable and modular one for us.
                     After being joined by another developer we were able to create a concept for a new solution.
-                    This solution soon became the Management Tools for dozens of customers to present information in an interactive manner 
+                    This solution soon became the Management Tools for dozens of customers to present information in an
+                    interactive manner
                     to passersby.
                     Ensuring backwards compatibility the CMS was developed using the Typescript Framework Angular in
-                    combination with Node which was already in use for some of the newer applications. Still many older customers required and received an update.
+                    combination with Node which was already in use for some of the newer applications. Still many older
+                    customers required and received an update.
                     The application running on the signage devices themselves is an electron-based Angular Application,
                     supported by a C# Application to manage the device itself.
                     The database used was also changed from MongoDB to MariaDB in this overhaul.
@@ -472,13 +479,7 @@
         element.classList.add("hidden");
     });
 </script>
-<script src="./js/navbar.js"></script>
-<script src="./js/scrollEventManager.js"></script>
-<script>
-    var careerScrollManager = new ScrollEventManager(".view-blocker.active", "active", 0.99);
-    var skillScrollManager = new ScrollEventManager(".level.hidden", "hidden", 0.99);
-</script>
-
-
+<script src="./js/navbar.js" defer></script>
+<script src="./js/scrollEventManager.js" async></script>
 
 </html>

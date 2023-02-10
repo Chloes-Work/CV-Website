@@ -1,7 +1,6 @@
-
 footer .contact {
     text-align: center;
-    margin:  0 2% 2% 2%;
+    margin: 0 2% 2% 2%;
     border-top: 2px solid white;
     margin-top: 7vh;
     padding-top: 7vh;
@@ -18,7 +17,7 @@ footer .contact .mail a {
     text-decoration: none;
 }
 
-footer .copyright{
+footer .copyright {
     margin-top: 7vh;
     font-size: 0.7em;
     text-align: center;

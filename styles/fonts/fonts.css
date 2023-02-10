@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'AlexBrush';
     src: url('./AlexBrush/AlexBrush-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Titillium';
     src: url('./Titillium/TitilliumWeb-Regular.ttf') format('truetype');
-    
+    font-display: swap;
 }
-  
