@@ -6,52 +6,73 @@
 @import "./skills.css";
 @import "./footer.css";
 
+html {
+    font-size: 1vw;
+}
+
 body {
     font-family: 'Titillium';
-    font-size: 2vh;
     background-color: rgb(255 176 222);
     margin: 0px;
 }
 
 @media (max-width:270px) {
-    body {
+    footer,
+    main {
         line-break: anywhere;
-        font-size: 0.4em;
     }
 }
 
-@media (max-width:320px) {
-    body {
-        font-size: 0.5em;
+@media (max-width:350px){
+    main .career .cv-entry {
+        font-size: 0.7em;
     }
-}
 
-@media (min-width:1000px) {
-    body {
-        font-size: 1.1em;
+    main .career .cv-entry .horizontal-line {
+        border-bottom: 2px dotted white;
+    }
+    
+    main .career .cv-entry.future .horizontal-line {
+        border-bottom: 2px dotted lightgrey;
     }
 }
 
 @media (max-width:500px) {
+    footer,
+    main {
+        font-size: 2em;
+    }
+
     main .about .hello {
         flex-direction: column;
     }
 }
 
-@media only screen and (min-width: 2000px) {
-    body {
-        font-size: 2em;
+
+@media only screen and (min-width:500px) {
+    footer,
+    main {
+        font-size: 1.8em;
     }
 }
 
-@media only screen and (min-width: 3000px) {
-    body {
-        font-size: 2.5em;
+@media only screen and (max-width:1000px) {
+    html {
+        font-size: 1.5vw;
     }
 }
+
+@media only screen and (min-width:1000px) {
+    footer,
+    main {
+        font-size: 1.5em;
+    }
+}
+
 
 @media only screen and (min-width: 4000px) {
-    body {
-        font-size: 3em;
+    footer,
+    main {
+        font-size: 1.8em;
     }
 }

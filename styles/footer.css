@@ -24,3 +24,14 @@ footer .copyright {
     padding: 2% 0 2% 0;
     background-color: white;
 }
+
+footer .contact .logo {
+    display: flex;
+    width: 52%;
+    margin: auto;
+}
+
+footer .contact .logo svg {
+    flex: 1;
+    font-size: 12px;
+}

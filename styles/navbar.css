@@ -1,6 +1,6 @@
 header .navbar {
     display: flex;
-    padding: 1vh 0 1vh 0;
+    padding: 1em 0 1em 0;
     width: 100%;
     flex: 1;
     background-color: rgb(221 82 178);
@@ -16,8 +16,7 @@ header .navbar {
     transition: background-color ease-in-out 0.4s, text-decoration ease-in-out 0.4s;
     color: white;
     text-decoration: none;
-    line-height: 4vh;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 

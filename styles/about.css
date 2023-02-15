@@ -1,6 +1,6 @@
 main .about .hello {
     display: flex;
-    padding: 7vh 2% 0 2%;
+    padding: 5em 7% 0 7%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
