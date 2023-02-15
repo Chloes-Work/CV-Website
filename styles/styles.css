@@ -37,7 +37,7 @@ body {
     }
 }
 
-@media (max-width:500px) {
+@media only screen and (max-width:500px) and (orientation: portrait) {
     footer,
     main {
         font-size: 2em;
@@ -45,6 +45,14 @@ body {
 
     main .about .hello {
         flex-direction: column;
+    }
+
+    html {
+        font-size: 2vw;
+    }
+
+    header .navbar {
+        font-size: 2em;
     }
 }
 
