@@ -23,9 +23,22 @@ body {
     }
 }
 
-@media (max-width:350px){
+@media only screen and (max-width:370px) {
     main .career .cv-entry {
         font-size: 0.7em;
+    }
+
+    #content > div.career {
+        font-size: 1.5em;
+    }
+
+    
+    main .career .line {
+        height: 41em;
+    }
+
+    .career-text {
+        font-size: 12px !important;
     }
 
     main .career .cv-entry .horizontal-line {
@@ -37,7 +50,7 @@ body {
     }
 }
 
-@media only screen and (max-width:500px) and (orientation: portrait) {
+@media only screen and (max-width:500px) {
     footer,
     main {
         font-size: 2em;
